@@ -26,7 +26,7 @@ def home(request):
     }
     return render(request, "accounts/index.html", data)
 
-
+# register
 def register(request):
     print("dndj")
     if request.method == "POST":
